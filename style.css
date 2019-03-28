@@ -1,8 +1,10 @@
 #container{
-    height: 600px;
-    width: 600px;
-    border: 2px solid black;
+    height: 102%;
+    width: 102%;
     background-color: crimson;
+    position: fixed;
+    padding: 0px 0px;
+    margin: -10px -10px;
 }
 
 #frameButton1{
@@ -16,5 +18,3 @@
     z-index: 1;
 
 }
-
-
