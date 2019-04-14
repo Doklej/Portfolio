@@ -8,10 +8,15 @@
 }
 
 .frameButton{
-    width: 100px;
-    height: 100%;
+    width: 150px;
+    height: 80%;
+
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+
     display: block;
-    position: absolute;
     transform: skewX(-5deg);
     z-index: 1;
 }
@@ -23,10 +28,28 @@
 
 #frameButton2{
     background-color: #000000;
-    margin-left: 40%;
+    margin-left: 45%;
 }
 
 #frameButton3{
     background-color: #000000;
-    margin-left: 50%;
+    margin-left: 60%;
+}
+
+#kanjiCharacters{
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    background-color: #000000;
+    display: block;
+    position: absolute;
+}
+
+#portrait{
+    width: 100px;
+    height: 100px;
+    margin-left: 90%;
+    background-color: #000000;
+    display: block;
+    position: absolute;
 }
