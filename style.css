@@ -16,7 +16,7 @@
     top:0; bottom:0;
     margin:auto;
 
-    display: block;
+    display: inline-block;
     transform: skewX(-5deg);
     z-index: 1;
 }
@@ -39,17 +39,18 @@
 #kanjiCharacters{
     width: 100px;
     height: 100px;
-    margin-left: 10%;
+    margin-left: 6%;
     background-color: #000000;
-    display: block;
+    display: inline-block;
     position: absolute;
 }
 
 #portrait{
     width: 100px;
     height: 100px;
-    margin-left: 90%;
+    margin-top: 37%;
+    margin-left: 86%;
     background-color: #000000;
-    display: block;
+    display: inline-block;
     position: absolute;
 }
